@@ -5,19 +5,6 @@
     mocha: true
   extends: "eslint:recommended"
   rules:
-    valid-jsdoc:
-      - error
-      - requireReturnDescription: false
-        preferType:
-          Boolean: boolean
-          Number: number
-          String: string
-    require-jsdoc:
-      - error
-      - require:
-          FunctionDeclaration: true
-          MethodDefinition: true
-          ClassDeclaration: false
     array-bracket-spacing:
       - error
       - never
