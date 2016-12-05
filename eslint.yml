@@ -1,0 +1,136 @@
+---
+  env:
+    es6: true
+    node: true
+  extends: "eslint:recommended"
+  rules:
+    valid-jsdoc:
+      - error
+      - requireReturnDescription: false
+        preferType:
+          Boolean: boolean
+          Number: number
+          String: string
+    require-jsdoc:
+      - error
+      - require:
+          FunctionDeclaration: true
+          MethodDefinition: true
+          ClassDeclaration: false
+    array-bracket-spacing:
+      - error
+      - never
+    array-callback-return: error
+    block-spacing:
+      - error
+      - always
+    brace-style:
+      - error
+      - 1tbs
+      - allowSingleLine: true
+    camelcase:
+      - error
+      - properties: always
+    comma-spacing:
+      - error
+      - before: false
+        after: true
+    comma-style:
+      - error
+      - last
+    complexity:
+      - error
+      - 5
+    computed-property-spacing:
+      - error
+      - never
+    curly:
+      - error
+      - multi-line
+      - consistent
+    dot-location:
+      - error
+      - property
+    eol-last: error
+    eqeqeq:
+      - error
+      - smart
+    handle-callback-err: error
+    indent:
+      - error
+      - 4
+    key-spacing:
+      - error
+      - beforeColon: false
+        afterColon: true
+    keyword-spacing:
+      - error
+      - before: true
+        after: true
+        overrides: {}
+    linebreak-style:
+      - error
+      - unix
+    max-depth:
+      - error
+      - max: 2
+    max-lines:
+      - error
+      - 90
+    max-nested-callbacks:
+      - error
+      - 2
+    max-statements:
+      - error
+      - 7
+    max-statements-per-line:
+      - error
+      - max: 1
+    no-console: off
+    no-catch-shadow: error
+    no-const-assign: error
+    no-eval: error
+    no-label-var: error
+    no-lonely-if: error
+    no-multi-spaces: error
+    no-param-reassign: error
+    no-path-concat: error
+    no-process-exit: error
+    no-return-assign: error
+    no-shadow: error
+    no-shadow-restricted-names: error
+    no-spaced-func: error
+    no-trailing-spaces: error
+    no-undef: error
+    no-unused-vars: error
+    no-use-before-define: error
+    no-var: error
+    no-whitespace-before-property: error
+    object-curly-spacing:
+      - error
+      - always
+    prefer-const: error
+    prefer-template: error
+    quotes:
+      - error
+      - single
+    radix: error
+    semi:
+      - error
+      - always
+    space-before-blocks:
+      - error
+      - always
+    space-before-function-paren:
+      - error
+      - never
+    space-infix-ops: error
+    space-unary-ops: error
+    spaced-comment:
+      - error
+      - always
+    strict:
+      - error
+      - safe
+    yoda: error
+    new-cap: error
