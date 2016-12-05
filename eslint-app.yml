@@ -1,7 +1,7 @@
 ---
-  extends: "./.eslint-core.yml"
   parserOptions:
     ecmaVersion: 6
     sourceType: module
     ecmaFeatures:
       jsx: true
+  extends: "./.eslint-core.yml"
