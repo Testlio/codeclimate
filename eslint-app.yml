@@ -1,5 +1,5 @@
 ---
-  extends: "./eslint-core.yml"
+  extends: "./.eslint-core.yml"
   paresrOptions:
     ecmaVersion: 6
     sourceType: module
