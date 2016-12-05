@@ -1,6 +1,6 @@
 ---
   extends: "./.eslint-core.yml"
-  paresrOptions:
+  parserOptions:
     ecmaVersion: 6
     sourceType: module
     ecmaFeatures:
