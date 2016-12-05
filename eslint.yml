@@ -64,7 +64,9 @@
       - max: 2
     max-lines:
       - error
-      - 120
+      - max: 90
+        skipBlankLines: true
+        skipComments: true
     max-nested-callbacks:
       - error
       - 2
